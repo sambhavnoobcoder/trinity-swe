@@ -15,15 +15,22 @@ pip install vllm
 # pip install text-generation
 ```
 
-### 2. Configure for GPU
+### 2. Model Options
 
+**Option A: Ollama (Recommended)**
+```bash
+# Pull the actual Qwen3-Coder model
+ollama pull qwen3-coder:30b
+```
+
+**Option B: GPU acceleration with vLLM**
 Edit `trinity_swe_qwen3_local.py` and uncomment the GPU_CONFIG section:
 
 ```python
 # Uncomment these lines:
 GPU_CONFIG = {
     'backend': 'vllm',  # or 'tgi' for Text Generation Inference
-    'model_name': 'Qwen/Qwen2.5-Coder-32B-Instruct',
+    'model_name': 'Qwen/QwQ-32B-Preview',  # Qwen3-Coder equivalent
     'gpu_memory_utilization': 0.9,
     'tensor_parallel_size': 1,  # Increase for multi-GPU
     'max_model_len': 32768,

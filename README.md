@@ -12,14 +12,16 @@ cd trinity-swe
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Setup GPU (see GPU_SETUP.md for details)
+# 3. Setup model (see GPU_SETUP.md for details)
+# Option A: Ollama (easiest)
+ollama pull qwen3-coder:30b
+
+# Option B: GPU acceleration
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install vllm
+# Then uncomment GPU_CONFIG in trinity_swe_qwen3_local.py
 
-# 4. Configure GPU in trinity_swe_qwen3_local.py
-# Uncomment the GPU_CONFIG section
-
-# 5. Run full dataset
+# 4. Run full dataset
 python3 run_gpu_full.py
 ```
 
@@ -41,7 +43,8 @@ Trinity-SWE uses a **3-agent ensemble**:
 
 ## Performance
 
-- **Target Model**: Qwen2.5-Coder-32B (local equivalent of Qwen3-Coder-480B-A35B)
+- **Target Model**: Qwen3-Coder-30B (30B params, 3.3B activated) 
+- **Key Features**: 256K context, optimized for "agentic and coding tasks"
 - **Expected Performance**: 15-25% resolve rate (competitive with top submissions)
 - **Speed**: ~2-3 instances/minute on RTX 4090
 - **Cost**: $0 (local inference only)

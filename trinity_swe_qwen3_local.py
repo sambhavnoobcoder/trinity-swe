@@ -15,15 +15,23 @@ from datasets import load_dataset
 
 from local_inference import LocalInferenceManager, InferenceConfig, PRESET_CONFIGS
 
-# GPU Configuration - Uncomment for GPU acceleration
+# GPU Configuration - Uncomment for GPU acceleration with HuggingFace models
 # GPU_CONFIG = {
-#     'backend': 'vllm',  # or 'tgi' for Text Generation Inference
-#     'model_name': 'Qwen/Qwen2.5-Coder-32B-Instruct',
+#     'backend': 'vllm',  # or 'tgi' for Text Generation Inference  
+#     'model_name': 'Qwen/QwQ-32B-Preview',  # Qwen3-Coder equivalent via HuggingFace
 #     'gpu_memory_utilization': 0.9,
 #     'tensor_parallel_size': 1,  # Increase for multi-GPU
 #     'max_model_len': 32768,
 #     'dtype': 'bfloat16'
 # }
+
+# Ollama Configuration - For local Qwen3-Coder execution
+QWEN3_CONFIG = {
+    'backend': 'ollama',
+    'model_name': 'qwen3-coder:30b',  # 30B params, 3.3B activated
+    'context_length': 32768,  # Up to 256K supported
+    'temperature': 0.1
+}
 
 @dataclass
 class ModelResponse:
@@ -709,7 +717,7 @@ QWEN3_PRESET_CONFIGS = {
     
     "ollama_qwen3": InferenceConfig(
         backend="ollama",
-        model_name="qwen2.5-coder:latest",  # Best available Qwen coder model
+        model_name="qwen3-coder:30b",  # Actual Qwen3-Coder model (30B params, 3.3B activated)
         base_url="http://localhost:11434",
         max_tokens=6000,
         temperature=0.1
@@ -760,9 +768,9 @@ async def setup_qwen3_trinity():
     if not available_configs:
         print("\n❌ No Qwen3-Coder compatible backends found!")
         print("\nSetup instructions for Qwen3-Coder models:")
-        print("1. Ollama: ollama pull qwen2.5-coder:32b")
-        print("2. vLLM: python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-Coder-32B-Instruct")
-        print("3. TGI: docker run --gpus all -p 3000:80 ghcr.io/huggingface/text-generation-inference:1.4 --model-id Qwen/Qwen2.5-Coder-32B-Instruct")
+        print("1. Ollama: ollama pull qwen3-coder:30b")
+        print("2. vLLM: python -m vllm.entrypoints.openai.api_server --model Qwen/QwQ-32B-Preview")
+        print("3. TGI: docker run --gpus all -p 3000:80 ghcr.io/huggingface/text-generation-inference:1.4 --model-id Qwen/QwQ-32B-Preview")
         print("\nNote: Qwen3-Coder-480B-A35B is too large for most local setups.")
         print("      Using Qwen2.5-Coder-32B/72B as the best available alternative.")
         return None
