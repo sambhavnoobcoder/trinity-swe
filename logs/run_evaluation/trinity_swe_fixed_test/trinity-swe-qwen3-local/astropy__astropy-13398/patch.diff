@@ -1,0 +1,34 @@
+--- a/astropy/coordinates/altaz.py
++++ b/astropy/coordinates/altaz.py
+@@ -1,4 +1,4 @@
+ from astropy.coordinates.baseframe import BaseCoordinateFrame, RepresentationMapping
+-from astropy.coordinates.matrix_utilities import rotation_matrix, matrix_transpose
++from .matrix_utilities import rotation_matrix, matrix_transpose
+ from astropy.coordinates.representation import SphericalRepresentation
+ from astropy.units import Quantity
+--- a/astropy/coordinates/hadec.py
++++ b/astropy/coordinates/hadec.py
+@@ -1,4 +1,4 @@
+ from astropy.coordinates.baseframe import BaseCoordinateFrame, RepresentationMapping
+-from astropy.coordinates.matrix_utilities import rotation_matrix, matrix_transpose
++from .matrix_utilities import rotation_matrix, matrix_transpose
+ from astropy.coordinates.representation import SphericalRepresentation
+ from astropy.units import Quantity
+--- a/astropy/coordinates/matrix_utilities.py
++++ b/astropy/coordinates/matrix_utilities.py
+@@ -1,4 +1,4 @@
+-from astropy.coordinates.matrix_utilities import rotation_matrix, matrix_transpose
++from .matrix_utilities import rotation_matrix, matrix_transpose
+--- a/astropy/coordinates/itrs.py
++++ b/astropy/coordinates/itrs.py
+@@ -1,4 +1,4 @@
+ from astropy.coordinates.baseframe import BaseCoordinateFrame, RepresentationMapping
+-from astropy.coordinates.matrix_utilities import rotation_matrix, matrix_transpose
++from .matrix_utilities import rotation_matrix, matrix_transpose
+ from astropy.coordinates.representation import CartesianRepresentation
+ from astropy.units import Quantity
+--- a/astropy/coordinates/tests/test_transforms.py
++++ b/astropy/coordinates/tests/test_transforms.py
+@@ -1,4 +1,4 @@
+-from astropy.coordinates.matrix_utilities import rotation_matrix, matrix_transpose
++from .matrix_utilities import rotation_matrix, matrix_transpose

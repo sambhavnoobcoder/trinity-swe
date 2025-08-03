@@ -1,0 +1,2712 @@
+2025-08-03 12:41:32,028 - INFO - Creating container for astropy__astropy-12907...
+2025-08-03 12:41:32,267 - INFO - Container for astropy__astropy-12907 created: d4cf5efa9ef1a332f4fa8f9dba6145d65c8d6468a2523de26bc29b82aef39f89
+2025-08-03 12:41:32,508 - INFO - Container for astropy__astropy-12907 started: d4cf5efa9ef1a332f4fa8f9dba6145d65c8d6468a2523de26bc29b82aef39f89
+2025-08-03 12:41:32,509 - INFO - Intermediate patch for astropy__astropy-12907 written to logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/patch.diff, now applying to container...
+2025-08-03 12:41:32,584 - INFO - Failed to apply patch to container: git apply --verbose
+2025-08-03 12:41:32,620 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-08-03 12:41:32,654 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-08-03 12:41:32,654 - INFO - >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,655 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,656 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,657 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,658 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 135 with fuzz 3 (offset 12 lines).
+patch: **** malformed patch at line 20: @@ -150,7 +152,7 @@ def separability_matrix(model):
+
+
+Check (logs/run_evaluation/trinity_swe_test_5/trinity-swe-qwen3-local/astropy__astropy-12907/run_instance.log) for more information.
+
+2025-08-03 12:41:32,659 - INFO - Attempting to stop container sweb.eval.astropy__astropy-12907.trinity_swe_test_5...
+2025-08-03 12:41:47,770 - INFO - Attempting to remove container sweb.eval.astropy__astropy-12907.trinity_swe_test_5...
+2025-08-03 12:41:47,795 - INFO - Container sweb.eval.astropy__astropy-12907.trinity_swe_test_5 removed.
+2025-08-03 12:41:47,795 - INFO - Attempting to remove image swebench/sweb.eval.arm64.astropy_1776_astropy-12907:latest...
+2025-08-03 12:41:47,935 - INFO - Image swebench/sweb.eval.arm64.astropy_1776_astropy-12907:latest removed.

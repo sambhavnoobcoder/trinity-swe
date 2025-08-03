@@ -1,0 +1,9 @@
+avg_confidence: 0.8026500000000001
+ensemble_method: weighted_voting_with_enhanced_validation
+inference_backends:
+- ollama
+model_description: Multi-agent ensemble with local Qwen3-Coder inference
+model_name: Trinity-SWE Qwen3-Coder Local
+submission_date: '2025-08-03T03:44:35.884465'
+target_model: Qwen3-Coder-480B-A35B (or compatible local model)
+total_predictions: 5

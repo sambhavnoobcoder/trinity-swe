@@ -1,0 +1,9 @@
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -120,6 +120,7 @@ def separability_matrix(model):
+     for i in range(n_models):
+         for j in range(i+1, n_models):
+             if not model[i].is_separable_from(model[j]):
++                matrix[i, j] = False
+                 matrix[j, i] = False
+     return matrix

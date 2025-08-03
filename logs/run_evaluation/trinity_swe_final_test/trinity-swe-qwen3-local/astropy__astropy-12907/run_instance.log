@@ -1,0 +1,47 @@
+2025-08-03 13:03:57,100 - INFO - Creating container for astropy__astropy-12907...
+2025-08-03 13:03:57,441 - INFO - Container for astropy__astropy-12907 created: ad906d0ff78bd899666bde23b660e21031021ca2219d732fae45405c08ae085a
+2025-08-03 13:03:57,573 - INFO - Container for astropy__astropy-12907 started: ad906d0ff78bd899666bde23b660e21031021ca2219d732fae45405c08ae085a
+2025-08-03 13:03:57,573 - INFO - Intermediate patch for astropy__astropy-12907 written to logs/run_evaluation/trinity_swe_final_test/trinity-swe-qwen3-local/astropy__astropy-12907/patch.diff, now applying to container...
+2025-08-03 13:03:57,651 - INFO - Failed to apply patch to container: git apply --verbose
+2025-08-03 13:03:57,692 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-08-03 13:03:57,741 - INFO - >>>>> Applied Patch:
+patching file astropy/modeling/separable.py
+Hunk #1 succeeded at 120 with fuzz 3.
+
+2025-08-03 13:03:57,969 - INFO - Git diff before:
+diff --git a/astropy/modeling/separable.py b/astropy/modeling/separable.py
+index a308e27297..f13d74517c 100644
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -120,6 +120,7 @@ def _compute_n_outputs(left, right):
+     else:
+         lnout = left.shape[0]
+     if isinstance(right, Model):
++                matrix[i, j] = False
+         rnout = right.n_outputs
+     else:
+         rnout = right.shape[0]
+2025-08-03 13:03:57,971 - INFO - Eval script for astropy__astropy-12907 written to logs/run_evaluation/trinity_swe_final_test/trinity-swe-qwen3-local/astropy__astropy-12907/eval.sh; copying to container...
+2025-08-03 13:04:28,298 - INFO - Test runtime: 30.28 seconds
+2025-08-03 13:04:28,300 - INFO - Test output for astropy__astropy-12907 written to logs/run_evaluation/trinity_swe_final_test/trinity-swe-qwen3-local/astropy__astropy-12907/test_output.txt
+2025-08-03 13:04:28,346 - INFO - Git diff after:
+diff --git a/astropy/modeling/separable.py b/astropy/modeling/separable.py
+index a308e27297..f13d74517c 100644
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -120,6 +120,7 @@ def _compute_n_outputs(left, right):
+     else:
+         lnout = left.shape[0]
+     if isinstance(right, Model):
++                matrix[i, j] = False
+         rnout = right.n_outputs
+     else:
+         rnout = right.shape[0]
+2025-08-03 13:04:28,346 - INFO - Grading answer for astropy__astropy-12907...
+2025-08-03 13:04:28,348 - INFO - report: {'astropy__astropy-12907': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['astropy/modeling/tests/test_separable.py::test_separable[compound_model6-result6]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model9-result9]']}, 'PASS_TO_PASS': {'success': [], 'failure': ['astropy/modeling/tests/test_separable.py::test_coord_matrix', 'astropy/modeling/tests/test_separable.py::test_cdot', 'astropy/modeling/tests/test_separable.py::test_cstack', 'astropy/modeling/tests/test_separable.py::test_arith_oper', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model0-result0]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model1-result1]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model2-result2]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model3-result3]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model4-result4]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model5-result5]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model7-result7]', 'astropy/modeling/tests/test_separable.py::test_separable[compound_model8-result8]', 'astropy/modeling/tests/test_separable.py::test_custom_model_separable']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for astropy__astropy-12907: resolved: False
+2025-08-03 13:04:28,349 - INFO - Attempting to stop container sweb.eval.astropy__astropy-12907.trinity_swe_final_test...
+2025-08-03 13:04:43,470 - INFO - Attempting to remove container sweb.eval.astropy__astropy-12907.trinity_swe_final_test...
+2025-08-03 13:04:43,495 - INFO - Container sweb.eval.astropy__astropy-12907.trinity_swe_final_test removed.
+2025-08-03 13:04:43,495 - INFO - Attempting to remove image swebench/sweb.eval.arm64.astropy_1776_astropy-12907:latest...
+2025-08-03 13:04:43,628 - INFO - Image swebench/sweb.eval.arm64.astropy_1776_astropy-12907:latest removed.

@@ -1,0 +1,10 @@
+agents:
+  analyzer: Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8
+  generator: Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8
+  validator: Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8
+avg_confidence: 0.5
+ensemble_method: weighted_voting_with_validation
+model_description: Multi-agent ensemble with Qwen3-Coder-480B-A35B
+model_name: Trinity-SWE Ensemble
+submission_date: '2025-08-02T20:02:26.429075'
+total_predictions: 1

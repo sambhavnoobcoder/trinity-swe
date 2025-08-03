@@ -1,0 +1,18 @@
+{
+  "model_name": "Trinity-SWE Qwen3-Coder Local",
+  "model_description": "Multi-agent ensemble with local Qwen3-Coder inference",
+  "submission_date": "2025-08-03T13:33:07.208971",
+  "authors": [
+    "sambhavnoobcoder"
+  ],
+  "contact": "indosambhav@gmail.com",
+  "repository": "https://github.com/sambhavnoobcoder/trinity-swe",
+  "license": "MIT",
+  "model_type": "ensemble",
+  "inference_type": "local",
+  "base_model": "Qwen2.5-Coder",
+  "model_size": "32B",
+  "cost_per_instance": 0.0,
+  "api_provider": "none",
+  "submission_version": "1.0"
+}

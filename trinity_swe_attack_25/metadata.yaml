@@ -1,0 +1,9 @@
+avg_confidence: 0.496
+ensemble_method: weighted_voting_with_validation
+inference_backends:
+- ollama
+- ollama
+model_description: Multi-agent ensemble with local inference
+model_name: Trinity-SWE Local
+submission_date: '2025-08-03T02:41:55.114668'
+total_predictions: 25

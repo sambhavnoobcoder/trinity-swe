@@ -1,0 +1,18 @@
+--- a/astropy/table/core.py
++++ b/astropy/table/core.py
+@@ -1234,6 +1234,7 @@ class Table:
+                 if (not isinstance(data, Column) and not data_is_mixin
+                         and isinstance(data, np.ndarray) and len(data.dtype) > 1):
+                     warnings.warn(
++                        "Structured arrays are deprecated. Wrap in Column instead.",
+                         FutureWarning,
+                         stacklevel=2)
+                     data = data.view(NdarrayMixin)
+@@ -1243,6 +1244,7 @@ class Table:
+                 if (not isinstance(data, Column) and not data_is_mixin
+                         and isinstance(data, np.ndarray) and len(data.dtype) > 1):
+                     warnings.warn(
++                        "Structured arrays are deprecated. Wrap in Column instead.",
+                         FutureWarning,
+                         stacklevel=2)
+                     data = data.view(NdarrayMixin)

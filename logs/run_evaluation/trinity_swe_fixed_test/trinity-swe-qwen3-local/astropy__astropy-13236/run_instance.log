@@ -1,0 +1,4182 @@
+2025-08-03 12:51:58,153 - INFO - Creating container for astropy__astropy-13236...
+2025-08-03 12:51:58,307 - INFO - Container for astropy__astropy-13236 created: 0760449e874751de4ebd760351ae6d2ff63f4d3ea73e271fd3ed333b374c8982
+2025-08-03 12:51:58,416 - INFO - Container for astropy__astropy-13236 started: 0760449e874751de4ebd760351ae6d2ff63f4d3ea73e271fd3ed333b374c8982
+2025-08-03 12:51:58,416 - INFO - Intermediate patch for astropy__astropy-13236 written to logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/patch.diff, now applying to container...
+2025-08-03 12:51:58,488 - INFO - Failed to apply patch to container: git apply --verbose
+2025-08-03 12:51:58,521 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-08-03 12:51:58,570 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-08-03 12:51:58,570 - INFO - >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,571 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,572 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,573 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,574 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,575 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Traceback (most recent call last):
+  File "/Users/sambhavdixit/Desktop/swe_time/SWE-bench/swebench/harness/run_evaluation.py", line 171, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: astropy__astropy-13236: >>>>> Patch Apply Failed:
+can't find file to patch at input line 3
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|--- a/astropy/table/core.py
+|+++ b/astropy/table/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/trinity_swe_fixed_test/trinity-swe-qwen3-local/astropy__astropy-13236/run_instance.log) for more information.
+
+2025-08-03 12:51:58,576 - INFO - Attempting to stop container sweb.eval.astropy__astropy-13236.trinity_swe_fixed_test...
+2025-08-03 12:52:13,694 - INFO - Attempting to remove container sweb.eval.astropy__astropy-13236.trinity_swe_fixed_test...
+2025-08-03 12:52:13,739 - INFO - Container sweb.eval.astropy__astropy-13236.trinity_swe_fixed_test removed.
+2025-08-03 12:52:13,739 - INFO - Attempting to remove image swebench/sweb.eval.arm64.astropy_1776_astropy-13236:latest...
+2025-08-03 12:52:13,873 - INFO - Image swebench/sweb.eval.arm64.astropy_1776_astropy-13236:latest removed.
